@@ -77,6 +77,7 @@ All configuration variables are optional with defaults. All CLI options will def
     ollama_url = "",
     open_ai_url = "",
     open_ai_token = "",
+    claude_token = "",
 }
 ```
 

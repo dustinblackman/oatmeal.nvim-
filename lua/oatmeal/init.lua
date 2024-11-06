@@ -112,6 +112,7 @@ function M.start()
     "ollama-url",
     "open-ai-token",
     "open-ai-url",
+    "claude-token",
     "theme",
     "theme-file",
   }
