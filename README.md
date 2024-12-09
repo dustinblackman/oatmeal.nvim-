@@ -59,6 +59,20 @@ use {
 }
 ```
 
+### vim-plug
+```vim
+call plug#begin
+  Plug 'dustinblackman/oatmeal.nvim'
+call plug#end()
+
+lua << EOF
+require("oatmeal").setup({
+    backend = "ollama",
+    model = "codellama:latest",
+})
+EOF
+```
+
 ## Default Configuration
 
 All configuration variables are optional with defaults. All CLI options will default to what is set in the [tool itself](https://github.com/dustinblackman/oatmeal#usage).
